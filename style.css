@@ -2,7 +2,7 @@
 
 :root{
     --border-color:rgb(0, 0, 169); 
-    --fill-color:rgb(59, 59, 249);
+    --fill-color:rgba(32, 155, 226);
 }
 
 *{
@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color:blue;
+    background-color:rgba(32, 155, 226, 0.662);
     color: white;
     font-family: 'Montserrat', 'sans-serif';
     display:flex;
@@ -58,7 +58,6 @@ h3{
 .cup.cup-small.full{
     background-color: var(--fill-color);
     color: white;
-
 }
 
 .cups{
